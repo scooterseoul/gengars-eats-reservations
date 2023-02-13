@@ -1,0 +1,20 @@
+[
+  {
+    "_id": { "$oid": "616005cae3c8e880c13dc0b9" },
+    "name": "The Flowering Taj",
+    "description": "Bringing you the spirits of India in the form of best authentic grandma's recipe dishes handcrafted with love by our chefs!",
+    "image": "https://img.freepik.com/free-photo/indian-food-assortment-with-sari-top-view_23-2148747630.jpg?w=826&t=st=1675737287~exp=1675737887~hmac=632ac9e9b63bde3e21a33d10f2d8478c00d8b7c4b94b24e4446ae3edb7dec0ad"
+  },
+  {
+    "_id": { "$oid": "616005e26d59890f8f1e619b" },
+    "name": "Kho Samui Thai",
+    "description": "Kho Samui Thai is pleased to offer a taste of authentic Thai food, where quality is never compromised. Using the freshest ingredients, each dish is prepared individually with herbs and spices to ensure wonderful bold and genuine flavors.",
+    "image": "https://cdn.pixabay.com/photo/2016/10/25/13/28/papaya-salad-1768888_960_720.jpg"
+  },
+  {
+    "_id": { "$oid": "616bd284bae351bc447ace5b" },
+    "name": "Little Sicily",
+    "description": "From the Italian classics, to our one-of-a-kind delicious Italian favourites, all of our offerings are handcrafted from the finest, freshest ingredients available locally. Whether you're craving Italian comfort food like our Ravioli, Pappardelle or something with a little more Flavour like our famous Fettuccine Carbonara.",
+    "image": "https://cdn.pixabay.com/photo/2020/06/02/18/10/noodles-5252012__340.jpg"
+  }
+]
