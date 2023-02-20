@@ -1,5 +1,6 @@
 import "./LoginButton.css";
 import { useAuth0 } from "@auth0/auth0-react";
+import login from "../loginbtn.png";
 
 const LoginButton = () => {
   const { loginWithRedirect, logout, isAuthenticated, isLoading } = useAuth0();
@@ -14,14 +15,14 @@ const LoginButton = () => {
         className="btn-login"
         onClick={() => logout({ returnTo: window.location.origin })}
       >
-        Log Out
+        <img src={login} alt="" className="login" />
       </button>
     );
   }
 
   return (
     <button className="btn-login" onClick={() => loginWithRedirect()}>
-      Log In
+      <img src={login} alt="" className="login" />
     </button>
   );
 };

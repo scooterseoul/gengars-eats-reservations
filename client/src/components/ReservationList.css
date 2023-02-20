@@ -1,0 +1,60 @@
+.no-rez {
+  color: rgb(218, 12, 12);
+}
+.upcoming {
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 2rem;
+  color: rgb(79, 78, 78);
+}
+.upRestaurantName {
+  color: rgb(79, 78, 78);
+}
+.upContainer {
+  text-align: center;
+}
+.detailbtn {
+  background-color: #5a9ace;
+  color: white;
+  border-radius: 0.2rem;
+  border: none;
+}
+.linkToInfo {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  padding-bottom: 1.5rem;
+}
+.linkToInfo a:link {
+  color: white;
+  text-decoration: none;
+}
+.linkToInfo a:visited {
+  color: white;
+}
+.upContainer {
+  margin: 1rem;
+}
+.no-reservations {
+  text-align: center;
+  font-size: 1.4rem;
+  margin-top: 2rem;
+}
+@media only screen and (min-width: 48rem) {
+  .linkToInfo {
+    align-self: center;
+    padding: 0;
+  }
+
+  .linkToInfo a {
+    color: white;
+    text-decoration: none;
+  }
+  .linkToInfo {
+    margin-bottom: 2.5rem;
+    text-decoration: none;
+    color: white;
+  }
+  .linkToInfo a:visited {
+    color: white;
+  }
+}

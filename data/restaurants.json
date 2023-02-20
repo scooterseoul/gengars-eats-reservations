@@ -1,20 +1,177 @@
 [
   {
+    "_id": { "$oid": "616bd284bae351bc447ace5a" },
+    "name": "Chez Milo",
+    "cuisine": "FRENCH",
+    "discount": "-10%",
+    "address": "227 1st Ave, South Bayview",
+    "phone": "(212)-867-2000",
+    "rating": 9.2,
+    "description": "Award-winning chef and leader in the Southwest culinary evolution, pays homage to turn of the century Parisian brasseries. Enjoy casual French classics, lighter fare and coastal dishes amidst an informal, bustling and vibrant atmosphere with a romantic street side setting.",
+    "image": "https://cdn.pixabay.com/photo/2016/06/03/14/32/cheese-tray-1433504__340.jpg"
+  },
+  {
     "_id": { "$oid": "616005cae3c8e880c13dc0b9" },
-    "name": "The Flowering Taj",
+    "name": "Flowering Taj",
+    "cuisine": "INDIAN",
+    "discount": "-10%",
+    "address": "227 1st Ave, South Bayview",
+    "phone": "(212)-867-2000",
+    "rating": 8.2,
     "description": "Bringing you the spirits of India in the form of best authentic grandma's recipe dishes handcrafted with love by our chefs!",
-    "image": "https://img.freepik.com/free-photo/indian-food-assortment-with-sari-top-view_23-2148747630.jpg?w=826&t=st=1675737287~exp=1675737887~hmac=632ac9e9b63bde3e21a33d10f2d8478c00d8b7c4b94b24e4446ae3edb7dec0ad"
+    "image": "https://i.ibb.co/yftcRcF/indian.jpg"
   },
   {
     "_id": { "$oid": "616005e26d59890f8f1e619b" },
-    "name": "Kho Samui Thai",
-    "description": "Kho Samui Thai is pleased to offer a taste of authentic Thai food, where quality is never compromised. Using the freshest ingredients, each dish is prepared individually with herbs and spices to ensure wonderful bold and genuine flavors.",
-    "image": "https://cdn.pixabay.com/photo/2016/10/25/13/28/papaya-salad-1768888_960_720.jpg"
+    "name": "Koh Samui",
+    "cuisine": "THAI",
+    "discount": "-25%",
+    "address": "227 1st Ave, South Bayview",
+    "phone": "(212)-867-2000",
+    "rating": 9.1,
+    "description": "We offer guests a modern dining experience featuring the authentic taste of Thailand. Food is prepared fresh from quality ingredients and presented with sophisticated elegance in a stunning dining setting filled with all the richness of Thai colour, sound and art.",
+    "image": "https://i.ibb.co/HPjd2jR/thai.jpg"
   },
   {
     "_id": { "$oid": "616bd284bae351bc447ace5b" },
-    "name": "Little Sicily",
+    "name": "Italian Feast",
+    "cuisine": "ITALIAN",
+    "discount": "Gelato",
+    "address": "227 1st Ave, South Bayview",
+    "phone": "(212)-867-2000",
+    "rating": 8.7,
     "description": "From the Italian classics, to our one-of-a-kind delicious Italian favourites, all of our offerings are handcrafted from the finest, freshest ingredients available locally. Whether you're craving Italian comfort food like our Ravioli, Pappardelle or something with a little more Flavour like our famous Fettuccine Carbonara.",
-    "image": "https://cdn.pixabay.com/photo/2020/06/02/18/10/noodles-5252012__340.jpg"
+    "image": "https://i.ibb.co/0r7ywJg/italian.jpg"
+  },
+  {
+    "_id": { "$oid": "616bd284bae351bc447ace5c" },
+    "name": "Korean Palace",
+    "cuisine": "KOREAN",
+    "discount": "-10%",
+    "address": "227 1st Ave, South Bayview",
+    "phone": "(212)-867-2000",
+    "rating": 9.5,
+    "description": "There is usually always a queue outside this popular joint, which offers casual Korean dining in a lively environment. Hot pots and bibimbab are your go-to options here, which you can find on our pleasingly epic menu. ",
+    "image": "https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvd2s2Nzk5Mzg1Ni1pbWFnZS1rcDZjMXFjdS5qcGc.jpg"
+  },
+  {
+    "_id": { "$oid": "616bd284bae351bc447ace5d" },
+    "name": "Asian Tiger",
+    "cuisine": "CHINESE",
+    "discount": "-20%",
+    "address": "227 1st Ave, South Bayview",
+    "phone": "(212)-867-2000",
+    "rating": 9.2,
+    "description": "Best bets are Cantonese staples such as succulent roast duck on rice or garlicky prawn-stuffed tofu in a hot stone pot, although the Hong Kong-style dai pai dong hawker dishes such as beef flank curry rice and Macau-style pork chop are winners too.",
+    "image": "https://images.pexels.com/photos/1310777/pexels-photo-1310777.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "_id": { "$oid": "616bd284bae351bc447ace5e" },
+    "name": "The Burj",
+    "cuisine": "PERSIAN",
+    "discount": "-10%",
+    "address": "227 1st Ave, South Bayview",
+    "phone": "(212)-867-2000",
+    "rating": 9.2,
+    "description": "Our chef makes wonderful food fresh daily with traditional ingredients (chickpeas, garlic, lemon, oil and tahini sourced from Israel) using a secret technique. The result is a smooth texture, a rich, nutty flavour, and the perfect balance of salt and acid. ",
+    "image": "https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHgxNjAzNzIxLWltYWdlLWt3dnhydWxiLmpwZw.jpg"
+  },
+  {
+    "_id": { "$oid": "616bd284bae351bc447ace5f" },
+    "name": "Hacienda",
+    "cuisine": "MEXICAN",
+    "discount": "-20%",
+    "address": "227 1st Ave, South Bayview",
+    "phone": "(212)-867-2000",
+    "rating": 9.6,
+    "description": "We create freshly-made, Mexican food crafted with wonderful flavors that guests love. We believe that the most delicious flavors start with quality ingredients and thoughtful preparation, taking pride in preparing meals in our kitchens each day.",
+    "image": "https://cdn.pixabay.com/photo/2016/08/23/08/53/tacos-1613795__340.jpg"
+  },
+  {
+    "_id": { "$oid": "616bd284bae351bc447ace5k" },
+    "name": "# Burgers",
+    "cuisine": "AMERICAN",
+    "discount": "-10%",
+    "address": "227 1st Ave, South Bayview",
+    "phone": "(212)-867-2000",
+    "rating": 8.2,
+    "description": "We have a great modern dining atmosphere, great views but bring a midwest nice vibe. Our menu centers around Modern Steakhouse meets Midwest Comfort Food served Classic Cocktails with local beer menu and popular wines.",
+    "image": "https://cdn.pixabay.com/photo/2019/04/24/12/11/burger-4152013__340.jpg"
+  },
+  {
+    "_id": { "$oid": "616bd284bae351bc447ace5n" },
+    "name": "10th Street",
+    "cuisine": "AMERICAN",
+    "discount": "Fries",
+    "address": "227 1st Ave, South Bayview",
+    "phone": "(212)-867-2000",
+    "rating": 9.2,
+    "description": "Whether you feel like BBQ or a burger, pizza or tacos, there is something for every taste at 10th Street. From full service to fast casual, fast food to a quick snack, there is something to satisfy your hunger",
+    "image": "https://cdn.pixabay.com/photo/2016/03/05/20/07/abstract-1238657__340.jpg"
+  },
+  {
+    "_id": { "$oid": "616bd284bae351bc447ace5o" },
+    "name": "Les Rupins",
+    "cuisine": "FRENCH",
+    "discount": "-10%",
+    "address": "227 1st Ave, South Bayview",
+    "phone": "(212)-867-2000",
+    "rating": 9.2,
+    "description": "After twenty years, we are excited to continue making the dishes that made us famous while adding new flavors and customers to the journey.",
+    "image": "https://cdn.pixabay.com/photo/2019/03/11/21/02/macarons-4049471__340.jpg"
+  },
+  {
+    "_id": { "$oid": "616bd284bae351bc447ace5p" },
+    "name": "Casablanca",
+    "cuisine": "Moroccan",
+    "discount": "-10%",
+    "address": "227 1st Ave, South Bayview",
+    "phone": "(212)-867-2000",
+    "rating": 9.2,
+    "description": "Marrakesh has been delivering results since we opened in 1989. Our goal is to provide both superior customer experience and tremendous value for our customers.",
+    "image": "https://cdn.pixabay.com/photo/2015/06/10/22/00/arab-sweets-805307__340.jpg"
+  },
+  {
+    "_id": { "$oid": "616bd284bae351bc447ace5q" },
+    "name": "Beppo",
+    "cuisine": "JAPANESE",
+    "discount": "-10%",
+    "address": "227 1st Ave, South Bayview",
+    "rating": 9.2,
+    "description": "Established in 2000, we are a fine dining establishment specializing in traditional Japanese cuisine great for family dining or corporate gatherings.",
+    "image": "https://cdn.pixabay.com/photo/2017/06/29/19/57/sushi-2455981__340.jpg"
+  },
+  {
+    "_id": { "$oid": "616bd284bae351bc447ace5s" },
+    "name": "Le Socrate",
+    "cuisine": "FRENCH",
+    "discount": "-10%",
+    "address": "227 1st Ave, South Bayview",
+    "phone": "(212)-867-2000",
+    "rating": 9.2,
+    "description": "Owner operated since 2009, Le Socrate has all the old-world charm of any romantic hideaway in Paris.",
+    "image": "https://cdn.pixabay.com/photo/2016/10/23/05/43/foie-gras-1762238__340.jpg"
+  },
+  {
+    "_id": { "$oid": "616bd284bae351bc447ace5t" },
+    "name": "Macau",
+    "cuisine": "MACANESE",
+    "discount": "-10%",
+    "address": "227 1st Ave, South Bayview",
+    "phone": "(212)-867-2000",
+    "rating": 9.2,
+    "description": "Best bets are Cantonese staples such as succulent roast duck on rice or garlicky prawn-stuffed tofu in a hot stone pot, although the Hong Kong-style dai pai dong hawker dishes such as beef flank curry rice and Macau-style pork chop are winners too.",
+    "image": "https://cdn.tasteatlas.com//images/dishes/feafc6209e1744659b2ed470e13b6bf6.jpg?mw=1300"
+  },
+  {
+    "_id": { "$oid": "616bd284bae351bc447ace5u" },
+    "name": "Sakana",
+    "cuisine": "JAPANESE",
+    "discount": "-10%",
+    "address": "227 1st Ave, South Bayview",
+    "phone": "(212)-867-2000",
+    "rating": 9.2,
+    "description": "Consistently recognized as being one of the best Japanese restaurants in the area, Sakana has everything you are looking for in authentic Japanese-style food. We cater to the desires of our clients by offering a sushi bar, dining room seating, and a generous patio with outdoor seating and a spectacular view of the city.",
+    "image": "https://cdn.pixabay.com/photo/2017/10/15/11/41/sushi-2853382__340.jpg"
   }
 ]

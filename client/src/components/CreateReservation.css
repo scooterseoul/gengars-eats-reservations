@@ -1,0 +1,31 @@
+h1 {
+  text-align: left;
+  font-size: large;
+  margin: 0;
+}
+label {
+  text-align: left;
+}
+input {
+  width: 60%;
+  align-items: left;
+  border-radius: 0.2rem;
+  border-color: white;
+}
+.createContainer {
+  color: rgb(79, 78, 78);
+}
+.submit-btn {
+  background: rgb(212, 20, 20);
+  border-radius: 0.3rem;
+  display: inline-block;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin: 0 0 1rem;
+  text-decoration: none;
+  border: white;
+  margin-top: 1rem;
+}
+.forminput {
+  margin: 0;
+}

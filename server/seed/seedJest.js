@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
 const _ = require("lodash");
 const { seedData } = require("./seedData");
-const ReservationModel = require("../src/models/RezModel");
-const RestaurantModel = require("../src/models/RestoModel");
+const ReservationModel = require("../src/models/ReservationModel");
+const RestaurantModel = require("../src/models/RestaurantModel");
 
 const { MongoMemoryServer } = require("mongodb-memory-server");
 

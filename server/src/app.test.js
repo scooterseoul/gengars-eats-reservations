@@ -9,27 +9,24 @@ describe("app", () => {
     const expectedBody = [
       {
         id: "616005cae3c8e880c13dc0b9",
-        name: "The Flowering Taj",
+        name: "Curry Place",
         description:
           "Bringing you the spirits of India in the form of best authentic grandma's recipe dishes handcrafted with love by our chefs!",
-        image:
-          "https://img.freepik.com/free-photo/indian-food-assortment-with-sari-top-view_23-2148747630.jpg?w=826&t=st=1675737287~exp=1675737887~hmac=632ac9e9b63bde3e21a33d10f2d8478c00d8b7c4b94b24e4446ae3edb7dec0ad",
+        image: "https://i.ibb.co/yftcRcF/indian.jpg",
       },
       {
         id: "616005e26d59890f8f1e619b",
-        name: "Kho Samui Thai",
+        name: "Thai Isaan",
         description:
-          "Kho Samui Thai is pleased to offer a taste of authentic Thai food, where quality is never compromised. Using the freshest ingredients, each dish is prepared individually with herbs and spices to ensure wonderful bold and genuine flavors.",
-        image:
-          "https://cdn.pixabay.com/photo/2016/10/25/13/28/papaya-salad-1768888_960_720.jpg",
+          "We offer guests a modern dining experience featuring the authentic taste of Thailand. Food is prepared fresh from quality ingredients and presented with sophisticated elegance in a stunning dining setting filled with all the richness of Thai colour, sound and art.",
+        image: "https://i.ibb.co/HPjd2jR/thai.jpg",
       },
       {
         id: "616bd284bae351bc447ace5b",
-        name: "Little Sicily",
+        name: "Italian Feast",
         description:
           "From the Italian classics, to our one-of-a-kind delicious Italian favourites, all of our offerings are handcrafted from the finest, freshest ingredients available locally. Whether you're craving Italian comfort food like our Ravioli, Pappardelle or something with a little more Flavour like our famous Fettuccine Carbonara.",
-        image:
-          "https://cdn.pixabay.com/photo/2020/06/02/18/10/noodles-5252012__340.jpg",
+        image: "https://i.ibb.co/0r7ywJg/italian.jpg",
       },
     ];
 
@@ -47,11 +44,10 @@ describe("app", () => {
       .expect((response) => {
         const expected = {
           id: "616005cae3c8e880c13dc0b9",
-          name: "The Flowering Taj",
+          name: "Curry Place",
           description:
             "Bringing you the spirits of India in the form of best authentic grandma's recipe dishes handcrafted with love by our chefs!",
-          image:
-            "https://img.freepik.com/free-photo/indian-food-assortment-with-sari-top-view_23-2148747630.jpg?w=826&t=st=1675737287~exp=1675737887~hmac=632ac9e9b63bde3e21a33d10f2d8478c00d8b7c4b94b24e4446ae3edb7dec0ad",
+          image: "https://i.ibb.co/yftcRcF/indian.jpg",
         };
         expect(response.body).toEqual(expected);
         expect(response.status).toBe(200);
@@ -87,14 +83,14 @@ describe("app", () => {
             id: "507f1f77bcf86cd799439011",
             partySize: 4,
             date: "2023-11-17T06:30:00.000Z",
-            restaurantName: "Lilac Grill",
+            restaurantName: "Island Grill",
             userId: "mock-user-id",
           },
           {
             id: "614abf0a93e8e80ace792ac6",
             partySize: 2,
             date: "2023-12-03T07:00:00.000Z",
-            restaurantName: "The Flowering Taj",
+            restaurantName: "Green Curry",
             userId: "mock-user-id",
           },
         ];
@@ -111,7 +107,7 @@ describe("app", () => {
           id: "507f1f77bcf86cd799439011",
           partySize: 4,
           date: "2023-11-17T06:30:00.000Z",
-          restaurantName: "Lilac Grill",
+          restaurantName: "Island Grill",
           userId: "mock-user-id",
         };
         expect(response.body).toEqual(expected);
@@ -153,7 +149,8 @@ describe("app", () => {
     const body = {
       partySize: 2,
       date: "2023-11-17T06:30:00.000Z",
-      restaurantName: "The Flowering Taj",
+
+      restaurantName: "Curry Place",
     };
 
     await request(app)
