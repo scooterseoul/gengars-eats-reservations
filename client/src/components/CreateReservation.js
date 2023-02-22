@@ -49,7 +49,7 @@ const CreateReservation = ({ restaurantName }) => {
     return (
       <>
         <p className="no-reservations">
-          Error creating a reservation! (error status {errorStatus})
+          Error creating a reservation! Sorry. (error status {errorStatus})
         </p>
         <Link to="/" className="button">
           Return to reservations
