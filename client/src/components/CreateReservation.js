@@ -94,7 +94,7 @@ const CreateReservation = ({ restaurantName }) => {
           />
 
           <button className="submit-button" disabled={isLoading}>
-            Submit
+            Reserve
           </button>
         </form>
       </div>
