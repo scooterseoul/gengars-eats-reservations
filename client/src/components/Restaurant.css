@@ -6,7 +6,7 @@ ul {
   padding: 0;
 }
 .singleimage {
-  border-radius: 0.5rem;
+  /* border-radius: 0.5rem; */
   position: relative;
   z-index: -1;
   max-width: 40vw;
