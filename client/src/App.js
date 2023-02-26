@@ -7,6 +7,7 @@ import Reservation from "./components/Reservation";
 import ReservationList from "./components/ReservationList";
 import RestaurantList from "./components/RestaurantList";
 import Restaurant from "./components/Restaurant";
+import Footer from "./components/Footer";
 
 const App = () => {
   const { isLoading } = useAuth0();
@@ -34,6 +35,7 @@ const App = () => {
           <Route path="/" element={<RestaurantList />} />
         </Routes>
       </div>
+      <Footer />
     </>
   );
 };

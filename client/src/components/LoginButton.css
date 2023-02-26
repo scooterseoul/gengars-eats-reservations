@@ -3,4 +3,6 @@
   background: #5a9ace;
   cursor: pointer;
   max-width: 2.2rem;
+  border-radius: 10rem;
+  padding-top: 0.21rem;
 }
