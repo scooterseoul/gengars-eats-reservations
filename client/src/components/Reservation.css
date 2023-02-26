@@ -24,21 +24,21 @@ p.singleRezRestName {
   font-size: 1rem;
   font-weight: bolder;
 }
-.resError {
+.reservation-error {
   color: red;
   margin: 0;
   text-align: center;
   margin-top: 2rem;
   font-size: 1rem;
 }
-.emptyrez {
+.empty-reservation {
   text-align: center;
 }
-.backtorez {
+.back-to-reservation {
   text-align: center;
   margin-top: -4rem;
 }
-.backToList {
+.back-to-list {
   background-color: #5a9ace;
   color: white;
   border-radius: 0.2rem;

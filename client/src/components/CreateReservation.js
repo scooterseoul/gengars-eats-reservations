@@ -93,7 +93,7 @@ const CreateReservation = ({ restaurantName }) => {
             dateFormat="d/MM/yyyy h:mm aa"
           />
 
-          <button className="submit-btn" disabled={isLoading}>
+          <button className="submit-button" disabled={isLoading}>
             Submit
           </button>
         </form>

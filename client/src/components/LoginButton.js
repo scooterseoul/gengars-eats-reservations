@@ -12,7 +12,7 @@ const LoginButton = () => {
   if (isAuthenticated) {
     return (
       <button
-        className="btn-login"
+        className="button-login"
         onClick={() => logout({ returnTo: window.location.origin })}
       >
         <img src={login} alt="" className="login" />
@@ -21,7 +21,7 @@ const LoginButton = () => {
   }
 
   return (
-    <button className="btn-login" onClick={() => loginWithRedirect()}>
+    <button className="button-login" onClick={() => loginWithRedirect()}>
       <img src={login} alt="" className="login" />
     </button>
   );

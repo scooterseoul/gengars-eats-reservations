@@ -15,7 +15,7 @@ input {
 .createContainer {
   color: rgb(79, 78, 78);
 }
-.submit-btn {
+.submit-button {
   background: rgb(212, 20, 20);
   border-radius: 0.3rem;
   display: inline-block;

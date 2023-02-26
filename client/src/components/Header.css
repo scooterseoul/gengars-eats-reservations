@@ -26,18 +26,18 @@ header li a {
   text-decoration: none;
   color: white;
 }
-.item-rest {
+.item-eats {
   font-size: 1rem;
   padding-right: 1rem;
   padding-top: 1rem;
   padding-left: 0;
 }
-.item-rez {
+.item-reservations {
   font-size: 1rem;
   padding-top: 1rem;
   text-align: center;
 }
-.nav-item3 {
+.user-login {
   padding-left: 0.5rem;
   text-align: center;
   margin-top: 0.5rem;

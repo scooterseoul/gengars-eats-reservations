@@ -39,12 +39,12 @@ const Reservation = () => {
   if (isNotFound) {
     return (
       <>
-        <p className="resError">Sorry! No reservation found.</p>
-        <div className="emptyrez">
+        <p className="reservation-error">Sorry! No reservation found.</p>
+        <div className="empty-reservation">
           <img className="empty" alt="empty" src={Empty}></img>
         </div>
-        <div className="backtorez">
-          <Link to="/reservations/" className="backToList">
+        <div className="back-to-reservation">
+          <Link to="/reservations/" className="back-to-list">
             &laquo; Back to reservations
           </Link>
         </div>
