@@ -1,6 +1,9 @@
 .no-rez {
   color: rgb(218, 12, 12);
 }
+.emptyrez {
+  text-align: center;
+}
 .upcoming {
   text-align: center;
   font-size: 2rem;
