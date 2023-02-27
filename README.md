@@ -6,11 +6,17 @@
 
 </div>
 
+
 ## About The Project
 A MERN stack project - Restaurant Reservation Website
 
 ### Demo: https://lucent-fairy-2ec992.netlify.app/
-
+<div>
+<img width=15% alt="Screen Shot 2023-02-26 at 3 53 27 PM" src="https://user-images.githubusercontent.com/99179952/221617729-eb21f9bb-6b31-4ed0-9062-fcc4620c8217.png">
+<img width=15% alt="Screen Shot 2023-02-26 at 3 53 27 PM" src="https://user-images.githubusercontent.com/99179952/221617029-1ddb77ac-94ae-4026-a7e1-a27f3f0e920f.png">
+<img width=15% alt="Screen Shot 2023-02-26 at 3 53 27 PM" src="https://user-images.githubusercontent.com/99179952/221618397-35c5546a-65e3-43cf-b74e-1e8704641c4c.png">
+<img width=15% alt="Screen Shot 2023-02-26 at 3 53 27 PM" src="https://user-images.githubusercontent.com/99179952/221619312-71e94430-d536-4f95-aaff-3d7102a2d7a7.png">
+</div>
 
 ### Features
 Users are able to:
