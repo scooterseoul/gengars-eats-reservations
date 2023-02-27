@@ -1,0 +1,93 @@
+header {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  background: #5a9ace;
+  max-height: 100%;
+}
+.header-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding-bottom: 0;
+}
+header ul {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  max-height: 2rem;
+}
+header li {
+  padding-top: 0.3rem;
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+header li a {
+  text-decoration: none;
+  color: white;
+}
+.item-eats {
+  font-size: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-left: 0;
+}
+.item-reservations {
+  font-size: 1rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+.user-login {
+  padding-left: 0.5rem;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.logo {
+  max-width: 2.5rem;
+  padding: 0.5rem;
+  padding-bottom: 0;
+  border-radius: 0.3rem;
+}
+.delicious {
+  box-shadow: 0 0.25rem 0.3rem 0 gray;
+  height: 6.5rem;
+  width: 100%;
+  border-radius: 0 0 3rem 0rem;
+}
+
+@media only screen and (min-width: 40rem) {
+  .header .container {
+    display: grid;
+    grid-template-columns: 10rem auto;
+    align-items: center;
+    max-width: 50rem;
+  }
+  header {
+    background: white;
+    box-shadow: 0 0.25rem 0.6rem 0 gray;
+  }
+  header li {
+    display: block;
+  }
+  .header-container {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    align-items: center;
+  }
+  header li a {
+    color: #5a9ace;
+    font-size: 1.3rem;
+  }
+  .delicious {
+    max-width: 100%;
+  }
+  .logo {
+    max-width: 4.5rem;
+  }
+  .nav {
+    justify-content: end;
+  }
+  .nav-item {
+    margin-left: 1rem;
+  }
+}

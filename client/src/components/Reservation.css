@@ -1,0 +1,72 @@
+li {
+  padding-bottom: 2rem;
+}
+.contRez {
+  text-align: center;
+}
+p.singleRezRestName {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 2rem;
+}
+.backTo {
+  color: black;
+  text-align: center;
+}
+.btn-back {
+  background: #5a9ace;
+  border-radius: 0.3rem;
+  display: inline-block;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+.reservation-error {
+  color: red;
+  margin: 0;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+.empty-reservation {
+  text-align: center;
+}
+.back-to-reservation {
+  text-align: center;
+  margin-top: -4rem;
+}
+.back-to-list {
+  background-color: #5a9ace;
+  color: white;
+  border-radius: 0.2rem;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0 0 1rem;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 48rem) {
+  .details {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  .singleRezRestName {
+    text-align: left;
+  }
+  .singlecontainer {
+    margin-top: 2rem;
+  }
+  .createContainer {
+    margin-top: 1rem;
+  }
+  .createrez {
+    padding-left: 0;
+  }
+  .resError {
+    font-size: 1.5rem;
+  }
+}

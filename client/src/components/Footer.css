@@ -1,0 +1,29 @@
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #5a9ace;
+  max-height: 50%;
+}
+.footer-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 0;
+  font-size: 0.7rem;
+}
+footer li a {
+  text-decoration: none;
+  color: white;
+}
+footer ul {
+  margin: 0;
+}
+.footer-title {
+  padding-left: 0.5rem;
+}
+.email {
+  text-align: right;
+  padding-right: 0.5rem;
+  color: white;
+}
