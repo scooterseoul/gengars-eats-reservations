@@ -1,5 +1,4 @@
 footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -26,4 +25,18 @@ footer ul {
   text-align: right;
   padding-right: 0.5rem;
   color: white;
+}
+.thanks {
+  text-align: left;
+  color: white;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+.ghicon {
+  width: 2.5rem;
+  padding: 0.2rem;
+}
+.linkdinIcon {
+  width: 2.5rem;
+  padding: 0.2rem;
 }
