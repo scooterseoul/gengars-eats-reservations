@@ -24,12 +24,17 @@ const Footer = () => {
               Thanks for visiting.
               <br /> This site was created by C. Alexander.
             </p>
-            <a href="https://github.com/scooterseoul" target="_blank">
+            <a
+              href="https://github.com/scooterseoul"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <img src={Github} className="ghicon" alt="github"></img>
             </a>
             <a
               href="https://www.linkedin.com/in/claudette-alexander"
               target="_blank"
+              rel="noreferrer noopener"
             >
               <img src={Linkdin} className="linkdinIcon" alt="linkdin"></img>
             </a>
