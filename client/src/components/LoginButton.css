@@ -1,8 +1,12 @@
 .button-login {
   border: 0.1rem solid transparent;
-  background: #5a9ace;
+  background: none;
   cursor: pointer;
-  max-width: 2.2rem;
-  border-radius: 10rem;
-  padding-top: 0.21rem;
+  /* width: 3rem; */
+  /* border-radius: 10rem;
+  padding-top: 0.21rem; */
+}
+.login {
+  width: 2.5rem;
+  /* height: 5rem; */
 }
