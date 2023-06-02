@@ -25,6 +25,11 @@ const Header = () => {
             <LoginButton />
           </li>
         </ul>
+        <div className="culinary">
+          <h1 className="textCulinary">
+            Discover the culinary traditions from around the world every month!
+          </h1>
+        </div>
       </div>
     </header>
   );

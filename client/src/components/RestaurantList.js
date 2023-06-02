@@ -1,9 +1,14 @@
 import React, { useState, useEffect } from "react";
 import "./RestaurantList.css";
 import { Link } from "react-router-dom";
+import kohSamui from "../images/kohSamui.png";
+import locationMarker from "../images/icons8-location-30.png";
+import phoneIcon from "../images/icons8-phone-30.png";
+import map from "../images/icons8-map-48.png";
+
 // import "./ReserveNowButton.css";
-import delicious from "../delicious.png";
-import leftbanner from "../leftbanner.png";
+// import delicious from "../delicious.png";
+// import leftbanner from "../leftbanner.png";
 
 const RestaurantList = () => {
   const [restaurants, setRestaurants] = useState([]);
@@ -28,14 +33,50 @@ const RestaurantList = () => {
   return (
     <>
       <div className="topcont">
-        <div className="leftbannercont">
-          <img src={leftbanner} alt="" className="leftbanner"></img>
+        <p className="photoBy">Photo by Lum3n</p>
+
+        <div className="updated">
+          <strong>Last Updated:</strong> May 23, 2023
         </div>
-        <div className="deliciousbanner">
-          <img src={delicious} alt="" className="delicious"></img>
+
+        <div className="intro">
+          Whether you're seeking a romantic dinner, a lively gathering, or a
+          casual brunch, Gengar's Eats is here to transform your dining
+          aspirations into reality. Let us be your trusted companion on the
+          journey to unforgettable flavors and extraordinary dining experiences.
+          Welcome to Gengar's Eats, where culinary dreams come true.
+        </div>
+        <div className="topPick">
+          <p className="topPickHeading">
+            This month's <strong>TOP PICK!</strong>
+          </p>
+          <p>
+            <strong>Koh Samui</strong>
+          </p>
+          <img src={kohSamui} alt="koh samui" />
+          <p className="pickDescription">
+            At Koh Samui, the menu is a symphony of authentic Thai flavors. From
+            the fragrant and tangy Tom Yum soup to the perfectly balanced Pad
+            Thai, every bite is an explosion of taste. Indulge in tender and
+            aromatic Green Curry, or savor the crispy goodness of Golden Spring
+            Rolls. Each dish is crafted with meticulous attention to detail,
+            showcasing the culinary expertise of our skilled chefs. Discover the
+            magic of Thai cuisine at Koh Samui, where every dish tells a story
+            and every bite is an adventure.
+          </p>
+          <div className="topDetails">
+            <img src={locationMarker} alt="address" className="addressMarker" />
+            <p className="address">227 1st Avenue, South Bayview</p>
+
+            <img src={phoneIcon} alt="phone" className="phoneIcon" />
+            <p className="phoneNumber">212-867-2000</p>
+            <div className="map">
+              <img src={map} alt="map" className="topMap" />
+            </div>
+          </div>
         </div>
       </div>
-      <h1 className="restaurantLabel">Recommended Eats...</h1>
+      <h1 className="restaurantLabel">Recommended Eats</h1>
       <ul className="restaurantListContainer">
         {restaurants.map((restaurant) => {
           return (

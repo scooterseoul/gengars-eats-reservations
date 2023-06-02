@@ -4,6 +4,91 @@ p {
 .container {
   padding: 0;
 }
+.topcont {
+  width: 95%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 2rem 2rem auto 1fr;
+  margin-top: -2rem;
+  background-color: white;
+}
+
+.photoBy {
+  display: inline;
+  text-align: right;
+  font-size: 0.7rem;
+  padding: 0.5rem;
+}
+.updated {
+  text-align: right;
+  padding: 0.5rem;
+  font-size: 0.7rem;
+}
+.updated strong {
+  color: red;
+}
+
+.intro {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.topPick {
+  padding: 0.5rem;
+  margin-top: 2rem;
+  box-shadow: 0 0.25rem 0.6rem 0 gray;
+  border-radius: 0.5rem;
+  background-color: rgb(218, 234, 218);
+}
+.topPickHeading {
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+.pickDescription {
+  background-color: rgb(6, 90, 6);
+  color: white;
+  padding: 0.5rem;
+  margin-top: -0.5rem;
+}
+.topDetails {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  /* border: 0.1rem;
+  border-style: solid;
+  border-radius: 0.5rem; */
+  display: grid;
+  grid-template-columns: 1.5rem 1fr auto;
+  grid-template-rows: repeat(2, 1fr);
+}
+.address {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.addressMarker {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  padding: 0.3rem;
+}
+.phoneIcon {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  padding: 0.3rem;
+}
+.phoneNumber {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  font-size: 0.8rem;
+  padding-left: 0.5rem;
+  padding-top: 0.3rem;
+}
+.map {
+  grid-column: 3/4;
+  grid-row: 1/-1;
+  align-self: center;
+  padding-right: 0.5rem;
+}
 .singleRestaurant img {
   position: relative;
   width: 90%;
@@ -12,12 +97,16 @@ p {
   margin-bottom: 1.5rem;
   text-align: center;
 }
+.singleRestaurant img {
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.6rem 0 gray;
+}
 .restaurantLabel {
   text-align: left;
   font-size: 1rem;
   margin: 0;
   padding-left: 1rem;
-  padding-top: 1rem;
+  padding-top: 5rem;
   padding-bottom: 0.5rem;
   color: rgb(79, 78, 78);
 }
@@ -30,9 +119,10 @@ p {
   width: 90%;
   display: grid;
   grid-template-columns: 2fr 1fr;
-  margin-top: -0.5rem;
+  /* margin-top: -0.5rem; */
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 4rem;
 }
 .listRestaurantName {
   text-align: left;
@@ -78,29 +168,6 @@ p {
 .restaurantListContainer {
   padding: 0;
   margin: 0;
-}
-.topcont {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 2fr;
-  max-width: 100%;
-}
-.deliciousbanner {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-.delicious {
-  height: 3.3rem;
-  box-shadow: 0 0.25rem 0.3rem 0 gray;
-}
-.leftbannercont {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  padding-left: 1rem;
 }
 
 @media only screen and (min-width: 38rem) {
