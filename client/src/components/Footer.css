@@ -2,7 +2,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background: #5a9ace;
+  background-color: rgb(60, 58, 58);
   max-height: 50%;
 }
 .footer-nav {
