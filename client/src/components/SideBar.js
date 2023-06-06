@@ -10,15 +10,15 @@ const SideBar = () => {
       <div className="logoside">
         <img src={logo} alt="logo" className="sideLogo" />
       </div>
-      <div className="navMenu">
+      <div className="navMenu1">
         <ul className="nav1">
-          <li className="item-eats">
-            <Link to="/" className="nav-link">
+          <li className="item-eats1">
+            <Link to="/" className="nav-link1">
               Eats
             </Link>
           </li>
-          <li className="item-reservations">
-            <Link to="/reservations" className="nav-link">
+          <li className="item-reservations1">
+            <Link to="/reservations" className="nav-link1">
               Reservations
             </Link>
           </li>
