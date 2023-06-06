@@ -44,8 +44,8 @@ const RestaurantList = () => {
           </div>
 
           <div className="introCont">
-            <div className="welcome">Welcome</div>
             <div className="intro">
+              <div className="welcome">Welcome to Gengar's Eats</div>
               Whether you're seeking a romantic dinner, a lively gathering, or a
               casual brunch, Gengar's Eats is here to transform your dining
               aspirations into reality. Let us be your trusted companion on the
@@ -66,7 +66,9 @@ const RestaurantList = () => {
             <p>
               <strong>Koh Samui</strong>
             </p>
-            <img src={kohSamui} alt="koh samui" />
+            <div className="kohSamuiImg">
+              <img src={kohSamui} alt="koh samui" />
+            </div>
             <p className="pickDescription">
               At Koh Samui, the menu is a symphony of authentic Thai flavors.
               From the fragrant and tangy Tom Yum soup to the perfectly balanced

@@ -2,7 +2,67 @@
   display: none;
 }
 
-@media only screen and (min-width: 40rem) {
+@media only screen and (min-width: 48rem) {
+  .sideBarCont {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    background-color: rgb(60, 58, 58);
+    width: 8rem;
+
+    /* position: -webkit-sticky; */
+    position: fixed;
+    /* top: 0; */
+    left: 0;
+    bottom: 0;
+  }
+  .logoside {
+    margin-top: 2rem;
+    max-width: 4.5rem;
+    justify-self: center;
+  }
+  .sideLogo {
+    width: 3rem;
+    box-shadow: 0 0.25rem 0.3rem 0 rgb(67, 67, 66);
+  }
+  .navMenu {
+    grid-row-start: 2;
+    grid-row-end: 4;
+  }
+  .nav1 {
+    /* align-self: center; */
+    position: fixed;
+    color: white;
+
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 1rem;
+  }
+  .user-login {
+    grid-row: 1/2;
+    text-align: left;
+  }
+  .item-eats {
+    grid-row: 2/3;
+    text-align: left;
+  }
+  .item-reservations {
+    grid-row: 3/4;
+    text-align: left;
+  }
+  .contactUs {
+    grid-row: 4/5;
+    text-align: left;
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+  .nav1 li a {
+    color: white;
+    text-decoration: none;
+    padding-left: 1rem;
+  }
+}
+@media only screen and (min-width: 62rem) {
   .sideBarCont {
     height: 100vh;
     display: grid;

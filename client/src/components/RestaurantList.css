@@ -44,8 +44,8 @@ p {
 }
 .welcome {
   grid-row: 3/4;
-  padding-top: 1rem;
-  padding-left: 0.5rem;
+  /* padding-top: 1rem; */
+  /* padding-left: 0.5rem; */
   font-size: larger;
   font-weight: bold;
   color: #4b4949;
@@ -54,7 +54,7 @@ p {
   display: none;
 }
 .topPick {
-  padding: 0.5rem;
+  padding: 1rem;
   margin-top: 2rem;
   box-shadow: 0 0.25rem 0.6rem 0 gray;
   /* border-radius: 0.5rem; */
@@ -65,10 +65,14 @@ p {
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
 }
+.kohSamuiImg {
+  text-align: center;
+}
 .pickDescription {
   background-color: rgb(255, 255, 255);
   color: rgb(60, 59, 59);
   padding: 0.5rem;
+  font-size: 0.8rem;
 }
 .topDetails {
   margin-top: 1rem;
@@ -185,7 +189,7 @@ p {
   margin: 0;
 }
 
-@media only screen and (min-width: 38rem) {
+@media only screen and (min-width: 48rem) {
   .listCont {
     display: grid;
     grid-template-columns: 8rem repeat(4, 1fr);
@@ -212,24 +216,19 @@ p {
     margin: 0 auto;
     padding-top: 4rem;
   }
-  .welcome {
-    grid-row: 1/2;
-    grid-column: 1/2;
-  }
+
   .intro {
-    /* justify-self: right;
-    margin: 0 auto; */
-    align-self: center;
     padding-bottom: 4rem;
     grid-column: 2/-1;
     grid-row: 2/-1;
+    font-size: 0.8rem;
   }
   .photoGallery {
     margin: 0 auto;
     grid-column: 1/2;
     grid-row: 2/-1;
-    width: 20rem;
-    height: 15rem;
+    width: 15rem;
+    height: 10rem;
     display: grid;
     grid-gap: 0.2rem;
     grid-template-columns: repeat(2, 1fr);
