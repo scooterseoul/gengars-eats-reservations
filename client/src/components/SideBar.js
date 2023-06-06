@@ -25,8 +25,11 @@ const SideBar = () => {
           <li className="user-login">
             <LoginButton />
           </li>
-          <li className="contactUs">
-            <p>Contact</p>
+          <li
+            className="contactUs"
+            onClick={() => (window.location = "mailto: scooterseoul@gmail.com")}
+          >
+            Contact
           </li>
         </ul>
       </div>
