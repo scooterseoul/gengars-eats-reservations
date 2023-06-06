@@ -4,7 +4,6 @@ import "./Reservation.css";
 import React, { useState, useEffect } from "react";
 import Empty from "../empty.png";
 import { useAuth0 } from "@auth0/auth0-react";
-import SideBar from "./SideBar";
 
 const Reservation = () => {
   const { id } = useParams();
@@ -40,9 +39,6 @@ const Reservation = () => {
   if (isNotFound) {
     return (
       <>
-        <div className="sideBar1">
-          <SideBar />
-        </div>
         <p className="reservation-error">Sorry! No reservation found.</p>
         <div className="empty-reservation">
           <img className="empty" alt="empty" src={Empty}></img>

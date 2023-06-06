@@ -89,11 +89,24 @@ header li a {
 }
 
 @media only screen and (min-width: 40rem) {
-  /* .nav {
-    display: none;
-  } */
-  .nav .nav-link {
-    display: none;
+  .nav {
+    background-color: rgba(50, 48, 48, 0.3);
+    /* padding-bottom: 1rem; */
+    margin-right: 2rem;
+  }
+  .nav-link {
+    color: white;
+    font-size: 0.8rem;
+  }
+  .item-eats {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 0.5rem;
+  }
+  .item-reservations {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding: 0.5rem;
   }
   .user-login {
     grid-column: 3/-1;

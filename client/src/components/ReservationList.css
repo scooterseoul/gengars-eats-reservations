@@ -43,12 +43,6 @@
   margin-top: 2rem;
 }
 @media only screen and (min-width: 48rem) {
-  .sideBar1 {
-    grid-column: 1/2;
-    grid-row-start: 1;
-    grid-row-end: -1;
-    height: 100vh;
-  }
   .linkToInfo {
     align-self: center;
     padding: 0;

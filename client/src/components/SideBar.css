@@ -25,7 +25,7 @@
     width: 3rem;
     box-shadow: 0 0.25rem 0.3rem 0 rgb(67, 67, 66);
   }
-  .navMenu {
+  .navMenu1 {
     grid-row-start: 2;
     grid-row-end: 4;
   }
@@ -42,11 +42,11 @@
     grid-row: 1/2;
     text-align: left;
   }
-  .item-eats {
+  .item-eats1 {
     grid-row: 2/3;
     text-align: left;
   }
-  .item-reservations {
+  .item-reservations1 {
     grid-row: 3/4;
     text-align: left;
   }
