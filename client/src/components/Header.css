@@ -90,7 +90,7 @@ header li a {
 
 @media only screen and (min-width: 40rem) {
   .nav {
-    background-color: rgba(50, 48, 48, 0.4);
+    background-color: rgba(50, 48, 48, 0.3);
     /* padding-bottom: 1rem; */
     margin-right: 2rem;
   }
