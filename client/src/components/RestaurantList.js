@@ -45,7 +45,7 @@ const RestaurantList = () => {
 
           <div className="introCont">
             <div className="intro">
-              <div className="welcome">Welcome to Gengar's Eats</div>
+              <div className="welcome">Eat & Drink</div>
               Whether you're seeking a romantic dinner, a lively gathering, or a
               casual brunch, Gengar's Eats is here to transform your dining
               aspirations into reality. Let us be your trusted companion on the
@@ -114,6 +114,11 @@ const RestaurantList = () => {
                     <strong className="restoname">{restaurant.name}</strong>
                   </div>
                   <div className="cuisine">{restaurant.cuisine}</div>
+                  <div className="morebtn">
+                    <Link to={"/restaurants/" + restaurant.id}>
+                      <button className="morebutton">Learn More &rarr;</button>
+                    </Link>
+                  </div>
                 </div>
               </li>
             );

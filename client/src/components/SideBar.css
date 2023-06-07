@@ -45,16 +45,18 @@
   .item-eats1 {
     grid-row: 2/3;
     text-align: left;
+    padding-top: 2rem;
   }
   .item-reservations1 {
     grid-row: 3/4;
     text-align: left;
+    padding-top: 2rem;
   }
   .contactUs {
     grid-row: 4/5;
     text-align: left;
     padding-left: 1rem;
-    padding-top: 1rem;
+    padding-top: 2rem;
   }
   .nav1 li a {
     color: white;
@@ -62,17 +64,14 @@
     padding-left: 1rem;
   }
 }
-@media only screen and (min-width: 62rem) {
+/* @media only screen and (min-width: 62rem) {
   .sideBarCont {
     height: 100vh;
     display: grid;
     grid-template-rows: repeat(4, 1fr);
     background-color: rgb(60, 58, 58);
     width: 8rem;
-
-    /* position: -webkit-sticky; */
     position: fixed;
-    /* top: 0; */
     left: 0;
     bottom: 0;
   }
@@ -90,7 +89,6 @@
     grid-row-end: 4;
   }
   .nav1 {
-    /* align-self: center; */
     position: fixed;
     color: white;
 
@@ -121,4 +119,4 @@
     text-decoration: none;
     padding-left: 1rem;
   }
-}
+} */
