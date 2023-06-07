@@ -71,6 +71,9 @@ p {
   text-align: center;
   width: 100%;
 }
+.pickDialog {
+  padding: 0.5rem;
+}
 .pickDescription {
   background-color: rgb(255, 255, 255);
   color: rgb(60, 59, 59);
@@ -213,6 +216,16 @@ p {
 }
 
 @media only screen and (min-width: 48rem) {
+  .container {
+    background-color: rgb(117, 118, 118);
+  }
+  .mainListCont {
+    grid-column: 2/-1;
+    margin: 0 auto;
+    background-color: white;
+    width: 95%;
+    margin-top: -0.1rem;
+  }
   .listCont {
     display: grid;
     grid-template-columns: 8rem repeat(4, 1fr);
@@ -226,7 +239,7 @@ p {
   .topcont {
     grid-column: 2/-1;
     grid-row: 1/2;
-    border-radius: 0.3rem;
+    border-radius: 0.3rem 0.3rem 0 0;
     /* box-shadow: 0 0.25rem 0.6rem 0 gray; */
     /* margin: 0 auto; */
   }
@@ -235,7 +248,7 @@ p {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     grid-gap: 1rem;
-    width: 60%;
+    width: 90%;
     margin: 0 auto;
     padding-top: 4rem;
   }
@@ -283,18 +296,61 @@ p {
     border-radius: 0 0 1rem 0;
   }
   .topPick {
-    width: 40%;
+    width: 90%;
     margin: auto;
+    margin-bottom: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     box-shadow: 0 0.25rem 0.6rem 0 gray;
-    background-color: white;
+    background-color: rgb(60, 58, 58, 0.5);
+    padding-bottom: 2rem;
   }
-
+  .kohSamuiHeading {
+    align-self: center;
+    padding-left: 1rem;
+  }
+  .topPickHeading,
+  .kohSamuiHeading {
+    color: white;
+  }
+  .kohSamuiImg {
+    grid-row: 2/4;
+  }
+  .kohSamuiImg img {
+    border-radius: 1rem 0 0 1rem;
+    height: 100%;
+  }
+  .pickDialog {
+    /* border-width: 1rem;
+    border-style: solid; */
+    padding: 0;
+  }
+  .pickDescription {
+    height: 100%;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0 1rem 1rem 0;
+    /* padding-left: 1rem;
+    padding-top: 1rem; */
+  }
+  .topDetails {
+    grid-column: 2/-1;
+    background-color: white;
+    /* height: 100%; */
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 0 0 1rem 0;
+    /* display: grid;
+    grid-template-columns: 1.5rem 1fr auto;
+    grid-template-rows: repeat(2, 1fr); */
+  }
   .recommend {
-    padding-left: 10rem;
+    padding-left: 2rem;
   }
 
   .restaurantListContainer {
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
     grid-column: 2/-1;
     grid-row: 3;
@@ -309,5 +365,20 @@ p {
   }
   .restaurant-info {
     display: grid;
+  }
+}
+
+@media only screen and (min-width: 61rem) {
+  .introCont {
+    width: 60%;
+  }
+  .topPick {
+    width: 70%;
+  }
+  .restaurantListContainer {
+    width: 70%;
+  }
+  .recommend {
+    padding-left: 10rem;
   }
 }

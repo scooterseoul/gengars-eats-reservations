@@ -63,22 +63,24 @@ const RestaurantList = () => {
             <p className="topPickHeading">
               This month's <strong>TOP PICK!</strong>
             </p>
-            <p>
+            <p className="kohSamuiHeading">
               <strong>Koh Samui</strong>
             </p>
             <div className="kohSamuiImg">
               <img src={kohSamui} alt="koh samui" />
             </div>
-            <p className="pickDescription">
-              At Koh Samui, the menu is a symphony of authentic Thai flavors.
-              From the fragrant and tangy Tom Yum soup to the perfectly balanced
-              Pad Thai, every bite is an explosion of taste. Indulge in tender
-              and aromatic Green Curry, or savor the crispy goodness of Golden
-              Spring Rolls. Each dish is crafted with meticulous attention to
-              detail, showcasing the culinary expertise of our skilled chefs.
-              Discover the magic of Thai cuisine at Koh Samui, where every dish
-              tells a story and every bite is an adventure.
-            </p>
+            <div className="pickDialog">
+              <p className="pickDescription">
+                At Koh Samui, the menu is a symphony of authentic Thai flavors.
+                From the fragrant and tangy Tom Yum soup to the perfectly
+                balanced Pad Thai, every bite is an explosion of taste. Indulge
+                in tender and aromatic Green Curry, or savor the crispy goodness
+                of Golden Spring Rolls. Each dish is crafted with meticulous
+                attention to detail, showcasing the culinary expertise of our
+                skilled chefs. Discover the magic of Thai cuisine at Koh Samui,
+                where every dish tells a story and every bite is an adventure.
+              </p>
+            </div>
             <div className="topDetails">
               <img
                 src={locationMarker}
@@ -99,31 +101,35 @@ const RestaurantList = () => {
           </div>
         </div>
 
-        <ul className="restaurantListContainer">
-          {restaurants.map((restaurant) => {
-            return (
-              <li className="singleRestaurant" key={restaurant.id}>
-                <Link to={"/restaurants/" + restaurant.id}>
-                  <img src={restaurant.image} alt={restaurant.name} />
-                </Link>
+        <div className="mainListCont">
+          <ul className="restaurantListContainer">
+            {restaurants.map((restaurant) => {
+              return (
+                <li className="singleRestaurant" key={restaurant.id}>
+                  <Link to={"/restaurants/" + restaurant.id}>
+                    <img src={restaurant.image} alt={restaurant.name} />
+                  </Link>
 
-                <div className="restaurant-info">
-                  <div className="discount">{restaurant.discount}</div>
-                  <div className="rating">{restaurant.rating}</div>
-                  <div className="listRestaurantName">
-                    <strong className="restoname">{restaurant.name}</strong>
+                  <div className="restaurant-info">
+                    <div className="discount">{restaurant.discount}</div>
+                    <div className="rating">{restaurant.rating}</div>
+                    <div className="listRestaurantName">
+                      <strong className="restoname">{restaurant.name}</strong>
+                    </div>
+                    <div className="cuisine">{restaurant.cuisine}</div>
+                    <div className="morebtn">
+                      <Link to={"/restaurants/" + restaurant.id}>
+                        <button className="morebutton">
+                          Learn More &rarr;
+                        </button>
+                      </Link>
+                    </div>
                   </div>
-                  <div className="cuisine">{restaurant.cuisine}</div>
-                  <div className="morebtn">
-                    <Link to={"/restaurants/" + restaurant.id}>
-                      <button className="morebutton">Learn More &rarr;</button>
-                    </Link>
-                  </div>
-                </div>
-              </li>
-            );
-          })}
-        </ul>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
       </div>
     </>
   );
