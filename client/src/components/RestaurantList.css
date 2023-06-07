@@ -229,6 +229,7 @@ p {
   .listCont {
     display: grid;
     grid-template-columns: 8rem repeat(4, 1fr);
+    padding-bottom: 2rem;
   }
   .sideBar1 {
     grid-column: 1/2;
