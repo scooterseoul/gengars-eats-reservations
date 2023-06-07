@@ -22,9 +22,10 @@ footer ul {
   padding-left: 0.4rem;
 }
 .email {
-  text-align: right;
-  padding-right: 0.4rem;
-  color: white;
+  /* text-align: right;
+  padding-right: 1rem;
+  color: white; */
+  display: none;
 }
 .thanksCont {
   color: white;
