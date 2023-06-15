@@ -284,7 +284,7 @@ p {
     border-radius: 0 0 1rem 0;
   }
   .topPick {
-    width: 90%;
+    max-width: 40%;
     margin: auto;
     margin-bottom: 4rem;
     display: grid;
@@ -305,9 +305,9 @@ p {
     grid-row: 2/4;
     grid-column: 1/-1;
   }
-  .kohSamuiImg img {
-    height: 100%;
-  }
+  /* .kohSamuiImg img {
+    max-width: 50%;
+  } */
   .pickDialog {
     padding: 0;
     grid-column: 1/-1;
