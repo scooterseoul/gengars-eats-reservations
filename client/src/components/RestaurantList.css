@@ -315,7 +315,7 @@ p {
   }
   .pickDescription {
     height: 100%;
-    padding: 1rem;
+    padding: 1.2rem;
   }
   .topDetails {
     grid-column: 1/-1;
