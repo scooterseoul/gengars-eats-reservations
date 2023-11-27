@@ -1,7 +1,7 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import { useAuth0 } from "@auth0/auth0-react";
-import ProtectedRoute from "./auth/ProtectedRoute";
+// import { useAuth0 } from "@auth0/auth0-react";
+// import ProtectedRoute from "./auth/ProtectedRoute";
 import Reservation from "./components/Reservation";
 import ReservationList from "./components/ReservationList";
 import RestaurantList from "./components/RestaurantList";
@@ -11,11 +11,11 @@ import Header from "./components/Header";
 // import SideBar from "./components/SideBar";
 
 const App = () => {
-  const { isLoading } = useAuth0();
+  // const { isLoading } = useAuth0();
 
-  if (isLoading) {
-    return <p>Cranking up the database... Just a moment</p>;
-  }
+  // if (isLoading) {
+  //   return <p>Cranking up the database... Just a moment</p>;
+  // }
   return (
     <>
       <Header />
@@ -28,17 +28,17 @@ const App = () => {
         </div> */}
 
         <Routes>
-          <Route path="/restaurants/:id" element={<ProtectedRoute />}>
-            <Route path="/restaurants/:id" element={<Restaurant />} />
-          </Route>
+          {/* <Route path="/restaurants/:id" element={<ProtectedRoute />}> */}
+          <Route path="/restaurants/:id" element={<Restaurant />} />
+          {/* </Route> */}
 
-          <Route path="/reservations/:id" element={<ProtectedRoute />}>
-            <Route path="/reservations/:id" element={<Reservation />} />
-          </Route>
+          {/* <Route path="/reservations/:id" element={<ProtectedRoute />}> */}
+          <Route path="/reservations/:id" element={<Reservation />} />
+          {/* </Route> */}
 
-          <Route path="/reservations" element={<ProtectedRoute />}>
-            <Route path="/reservations" element={<ReservationList />} />
-          </Route>
+          {/* <Route path="/reservations" element={<ProtectedRoute />}> */}
+          <Route path="/reservations" element={<ReservationList />} />
+          {/* </Route> */}
 
           <Route path="/" element={<RestaurantList />} />
         </Routes>

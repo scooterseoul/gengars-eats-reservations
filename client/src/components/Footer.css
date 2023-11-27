@@ -3,7 +3,7 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: rgb(60, 58, 58);
-  max-height: 50%;
+  /* height: 50%; */
 }
 .footer-nav {
   display: grid;
