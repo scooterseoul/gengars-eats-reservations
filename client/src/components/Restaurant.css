@@ -8,7 +8,7 @@ ul {
 .singleimage {
   /* border-radius: 0.5rem; */
   position: relative;
-  z-index: -1;
+  /* z-index: -1; */
   max-width: 40vw;
   margin-left: 1rem;
 }
@@ -66,6 +66,7 @@ ul {
   .singlecontainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 5rem 0;
   }
   .createrez {
     grid-column-start: 2;
